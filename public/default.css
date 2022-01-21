@@ -1,0 +1,63 @@
+body{
+  background-size:cover;
+}
+
+h1{
+color:brown;
+border-bottom:1px solid brown;
+width: fit-content;
+margin-left: 1em;
+}
+
+h2{
+  color:brown
+}
+
+.list,.team,.user{
+  border: 1px groove brown;
+  border-style:dashed;
+  margin:2em 0;
+}
+
+.user{
+  display:inline-flex;
+  padding:0 1em;
+}
+
+.user input{
+  margin:auto;
+  margin-right:2em;
+}
+
+.list h3, .team h3{
+  border-bottom:1px solid rgba(109, 81, 6, 0.658);
+  text-align:center;
+  margin:auto 1em;
+  padding: 1em 0;
+  color:brown;
+}
+
+.list ul, .team ul{
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap:wrap;
+}
+
+.list li, .team li{
+  border: 3px solid rgba(109, 81, 6, 0.658);
+  margin: 1em;
+  background: linear-gradient(rgba(255, 187, 0, 0.795),rgba(68, 52, 8, 0.658));
+  border-radius:20px;
+}
+
+.list img, .team img{
+  width:150px;
+}
+
+.list button, .team button{
+  display: block;
+  margin: 1em auto;
+  border-radius: 3px;
+    background-color: gold;
+    color: brown;
+}
